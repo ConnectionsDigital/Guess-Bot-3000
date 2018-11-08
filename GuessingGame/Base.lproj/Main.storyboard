@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8rx-O9-cr5">
-                                <rect key="frame" x="44" y="130.5" width="287" height="406"/>
+                                <rect key="frame" x="44" y="52" width="287" height="406"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess Bot 3000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9o-mm-1HY">
                                         <rect key="frame" x="12" y="0.0" width="263" height="58.5"/>
@@ -54,8 +54,8 @@
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
-                            <constraint firstItem="8rx-O9-cr5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1hh-Xk-SzM"/>
-                            <constraint firstItem="8rx-O9-cr5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lKG-DJ-xjq"/>
+                            <constraint firstItem="8rx-O9-cr5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OkB-9t-eXu"/>
+                            <constraint firstItem="8rx-O9-cr5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-78.5" id="jIy-mb-XcM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
